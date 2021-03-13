@@ -17,7 +17,7 @@ body {
 .card-body {
     width: 300px;
     height: 500px;
-    background-color: #ffbab3   ;
+    background-color: #654584   ;
     border-radius: 5px;
     padding: 10px;
     text-align: center;
@@ -25,11 +25,16 @@ body {
 }
 
 .profile-pic {
+    display: inline-block;
+    padding: 8px;
     overflow: hidden;
+    background: linear-gradient(130deg, #9e7a38, #71476f);
+    border-radius:50%;
+    margin: auto;
 }
 
 .profile-pic img {
     width: 100px;
     height: 100px;
-    border-radius: 50px;
+    border-radius: 50%;
 }
