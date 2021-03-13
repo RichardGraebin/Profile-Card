@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100vh;
+    background: url(background.jpg) no-repeat center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.card-body {
+    width: 300px;
+    height: 500px;
+    background-color: #ffbab3   ;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    line-height: 10px;   
+}
+
+.profile-pic {
+    overflow: hidden;
+}
+
+.profile-pic img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
