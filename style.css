@@ -95,3 +95,24 @@ body {
     visibility: hidden;
     opacity: 0;
 }
+
+.info-button {
+    width: 160px;
+    height: 40px;
+    margin-top: 0px;
+    margin: 10px;
+    background-color: #654584;
+    border-color: #f2d6ec;
+    border-style: solid;
+    border-radius: 5px;
+    transition: ease .2s;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    color: #f2d6ec;
+}
+
+.info-button:hover {
+    background-color: #f2d6ec;
+    color: rgb(19, 19, 19);
+}
