@@ -24,11 +24,12 @@ body {
     padding: 10px;
     text-align: center;
     line-height: 10px;   
-    
+    box-shadow: 3px 3px 10px #161616;
 }
 
 .card-header {
     padding: 25px;
+    padding-bottom: 0px;
 }
 
 .profile-pic {
@@ -71,8 +72,15 @@ body {
 }
 
 .desc {
-    color: rgb(19, 19, 19);
+    color: rgb(38, 38, 38);
     font-weight: 600;
+}
+
+.desc2 {
+    line-height: 15px;
+    color: #f2d6ec;
+    padding-top: 13px;
+    font-size: 12px;
 }
 
 
