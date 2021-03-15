@@ -56,15 +56,42 @@ body {
     font-weight: 600;
 }
 
-#gdimg a{
-    padding: 10px;
+
+#gimg {
+    padding: 25px;
+    font-size: 30px;
+    position: absolute;
+    padding-left: 40px;
+    padding-top: 15px;
+    transition: all 0.5s ease;
+}
+
+#gimg.fab.fa-github {
+    width: 20px;
+    height: 20px;
+}
+
+#divimg {
+    height: 80px;
+}
+
+#divimg {
+    width: 180px;
+    height: 60px;
+    margin: auto;
+}
+
+#divimg a{
     text-decoration: none;
     color: #f2d6ec;
 }
 
 #gtxt {
+    padding-top: 25px;
+    padding-left: 25px;
+    font-size: 15px;
     display: inline-block;
     visibility: hidden;
     opacity: 0;
-    transition:visibility 0.3s linear,opacity 0.3s linear;
+    transition:visibility 0.2s ease,opacity 0.2s ease;
 }
